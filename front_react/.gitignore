@@ -5,7 +5,6 @@
 
 # dependencies
 /node_modules
-#/front_react
 package-lock.json
 
 # testing
