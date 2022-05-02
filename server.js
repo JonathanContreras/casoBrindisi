@@ -5,7 +5,8 @@ const app = express();
 app.use(express.static(path));
 
 var corsOptions = {
-  origin: "http://localhost:3000",
+  //origin: "http://localhost:3000",
+  origin: "https://pizzeria-brindisi.herokuapp.com/",
 };
 app.use(cors(corsOptions));
 
